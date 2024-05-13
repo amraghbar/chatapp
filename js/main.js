@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const lowerBox = document.querySelector(".lowerBox");
 
   conversationsData.forEach((conversation) => {
+    
     const conversationElement = document.createElement("div");
     conversationElement.className =
       "col-12 conversation d-flex align-items-center gap-3";
